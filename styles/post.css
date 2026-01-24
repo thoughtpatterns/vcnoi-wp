@@ -1,0 +1,45 @@
+/* header.entry-header: The article title header object.
+ * footer.entry-footer: The page footer.
+ * .user-separator: A text-width separator below the featured video and above the 'click to enlarge', `<div class="..."><hr></div>`.
+ * .user-key-visual: Iconic images from Muhammad Speaks or elsewhere.
+ * .user-key-visual-container: The div which holds the image and its caption. */
+
+:root {
+  --accent: #8c4750;
+  --foreground: #1e222d;
+  --background: #eeeeee;
+  --white: #f7f7f7;
+  --border1: var(--foreground) solid 2px;
+  --border2: var(--accent) dotted 2px;
+}
+
+header.entry-header {
+  margin-bottom: 0;
+}
+
+footer.entry-footer {
+  margin-top: 0;
+}
+
+.user-separator > hr {
+  border-bottom: var(--border2);
+  max-height: 0;
+}
+
+.user-key-visual-container {
+  gap: 16px;
+  width: min-content;
+}
+
+.user-key-visual img {
+  border: var(--border1);
+  display: block;
+  margin: 0 auto;
+  max-height: 360px;
+  max-width: 640px;
+}
+
+.user-key-visual-container > figure + p,
+.user-key-visual-container > figure + p + p {
+  font-size: 0.9em;
+}

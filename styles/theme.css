@@ -1,0 +1,53 @@
+/* .user-gutenslider-container: The header div which holds the slider.
+ * .wp-block-latest-posts__list: The div which contains each post card.
+ * .wp-block-latest-posts__list.is-grid: The above div, with > 1 column.
+ * .wp-block-latest-posts__list(.is_grid)? > li: Post cards.
+ * .wp-block-latest-posts__featured-image: A post card's image.
+ * .wp-block-latest-posts__post-title: A post card's title.
+ * .wp-block-latest-posts__post-date: A post card's date. */
+
+:root {
+  --accent: #8c4750;
+  --foreground: #1e222d;
+  --background: #eeeeee;
+  --white: #f7f7f7;
+  --border1: var(--foreground) solid 2px;
+  --border2: var(--accent) dotted 2px;
+}
+
+.wp-block-latest-posts__list.is-grid {
+  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wp-block-latest-posts__list > li {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.wp-block-latest-posts__featured-image {
+  display: flex;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.wp-block-latest-posts__featured-image img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.wp-block-latest-posts__post-title {
+  display: block;
+  margin-bottom: -24px;
+  margin-top: 4px;
+}
+
+.wp-block-latest-posts__post-title,
+.wp-block-latest-posts__post-date {
+  padding: 12px;
+}

@@ -1,0 +1,19 @@
+/* header.entry-header: The page title header object.
+ * .user-key-visual: Iconic images from Muhammad Speaks or elsewhere. */
+
+:root {
+  --accent: #8c4750;
+  --foreground: #1e222d;
+  --background: #eeeeee;
+  --white: #f7f7f7;
+  --border1: var(--foreground) solid 2px;
+  --border2: var(--accent) dotted 2px;
+}
+
+header.entry-header {
+  margin-bottom: 0;
+}
+
+.user-key-visual img {
+  border: var(--border1);
+}

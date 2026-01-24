@@ -1,0 +1,82 @@
+/* header.entry-header: The page title header object.
+   .user-theme-grid: The grid of theme links.
+   .wp-block-group: A container within the grid, of a figure.
+   .wp-block-group__inner-container: The body of the above group.
+   --heading--font-family, --heading--font-size-h4, --heading--font-weight:
+     Wordpress variables used for the 'Latest Content' grid.
+   .user-hidden: A theme card to hide. */
+
+:root {
+  --accent: #8c4750;
+  --foreground: #1e222d;
+  --background: #eeeeee;
+  --white: #f7f7f7;
+  --border1: var(--foreground) solid 2px;
+  --border2: var(--accent) dotted 2px;
+  --border3: var(--foreground) solid 1px;
+}
+
+header.entry-header {
+  margin-bottom: 0;
+}
+
+.user-hidden {
+  display: none;
+  position: absolute;
+  visibility: hidden;
+}
+
+.user-theme-grid {
+  align-items: stretch;
+
+  > .wp-block-group,
+  > .wp-block-group > .wp-block-group__inner-container,
+  > .wp-block-group > .wp-block-group__inner-container > figure {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    > .wp-block-group__inner-container > figure {
+      background-color: var(--white);
+      border: var(--border3);
+      margin: 0;
+
+      > figcaption {
+        display: block;
+        font-family: var(--heading--font-family);
+        font-size: var(--heading--font-size-h4);
+        font-weight: var(--heading--font-weight);
+        margin: auto auto 0 0;
+        padding: 12px;
+
+        > a {
+          color: var(--foreground);
+          text-decoration: none /* !unimportant */;
+        }
+      }
+
+    }
+  }
+
+  > .wp-block-group:hover figcaption > a {
+    text-decoration: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .user-theme-grid {
+    > .wp-block-group > .wp-block-group__inner-container,
+    > .wp-block-group > .wp-block-group__inner-container > figure > img {
+      width: 100%;
+    }
+
+    > .wp-block-group > .wp-block-group__inner-container > figure > img {
+      backface-visibility: hidden;
+      height: 240px;
+      image-rendering: smooth;
+      margin-bottom: 0;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+}

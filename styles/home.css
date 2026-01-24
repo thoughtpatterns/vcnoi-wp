@@ -5,40 +5,33 @@
  * .user-intro-text: The introductory summary.
  * .user-intro-container: The div which holds the above two elements.
  * .user-latest-content-heading: The 'Latest Content' heading above the feed.
- * .user-latest-content-heading-contaner: The div which holds the above element. */
+ * .user-latest-content-heading-contaner: The div which holds the above element.
+ * .wp-block-latest-posts__list: The div which contains each post card.
+ * .wp-block-latest-posts__list.is-grid: The above div, with > 1 column.
+ * .wp-block-latest-posts__list(.is_grid)? > li: Post cards.
+ * .wp-block-latest-posts__featured-image: A post card's image.
+ * .wp-block-latest-posts__post-title: A post card's title.
+ * .wp-block-latest-posts__post-date: A post card's date. */
 
 :root {
   --accent: #8c4750;
   --foreground: #1e222d;
   --background: #eeeeee;
   --white: #f7f7f7;
-
-  --border1: var(--foreground) solid 4px;
+  --border1: var(--foreground) solid 2px;
   --border2: var(--accent) dotted 2px;
+  --border3: var(--foreground) solid 4px;
 }
 
 .user-key-visual {
   border: var(--border1);
 }
 
-/* .user-latest-content-heading {
-  border-top: var(--border2);
-  border-bottom: var(--border2);
-  margin: 0 auto !important;
-  padding: 8px 400px;
-}
-
-.user-latest-content-heading-container {
-  display: flex !important;
-  justify-content: center !important;
-  padding: 18px auto;
-} */
-
 .user-latest-content-heading {
   border-top: var(--border2);
   border-bottom: var(--border2);
   padding: 10px 0;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 .wp-block-latest-posts__list.is-grid {
@@ -49,65 +42,64 @@
 
 .wp-block-latest-posts__list > li {
   background-color: var(--white);
-  padding: 0 !important;
+  padding: 0;
 }
 
 .wp-block-latest-posts__list.is-grid > li {
   display: flex;
   flex-direction: column;
-  height: auto !important;
+  height: auto;
 }
 
 .wp-block-latest-posts__featured-image {
-  margin-bottom: auto !important;
+  margin-bottom: auto;
 }
 
 .wp-block-latest-posts__post-title {
   display: block;
-  margin-top: 4px !important;
-  margin-bottom: -24px !important;
+  margin-top: 4px;
+  margin-bottom: -24px;
 }
 
 .wp-block-latest-posts__post-title,
 .wp-block-latest-posts__post-date {
-  padding: 12px !important;
-  margin-bottom: auto;
+  padding: 12px;
 }
 
 @media (min-width: 768px) {
   .user-gutenslider-container {
     background-color: var(--accent);
-    margin-top: -90px !important;
-    padding-bottom: 36px !important;
-    width: 100% !important;
+    margin-top: -90px;
+    padding-bottom: 36px;
+    width: 100%;
   }
 
   #gutenslider-sqvmz24on {
-    border: var(--border1);
+    border: var(--border3);
   }
 
   .user-intro-container {
-    margin-top: -60px !important;
+    margin-top: -60px;
   }
 }
 
 @media (max-width: 767px) {
   .user-gutenslider-container {
-    margin: -90px 0 auto !important;
-    width: 100% !important;
+    margin: -90px 0 auto;
+    width: 100%;
   }
 
   #gutenslider-sqvmz24on {
     border-bottom: var(--border1);
     border-top: var(--border1);
-    margin: 0 !important;
-    max-width: 100% !important;
-    padding: 0 !important;
-    width: 100% !important;
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+    width: 100%;
   }
 
   .user-intro-container {
-    margin-top: -36px !important;
+    margin-top: -36px;
   }
 }
 
@@ -117,6 +109,23 @@
   }
 
   .user-intro-text {
-    max-width: 100% !important;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .wp-block-latest-posts__featured-image,
+  .wp-block-latest-posts__featured-image > a,
+  .wp-block-latest-posts__featured-image > a > img {
+    width: 100%;
+  }
+
+  .wp-block-latest-posts__featured-image > a > img {
+    backface-visibility: hidden;
+    height: 240px;
+    image-rendering: smooth;
+    margin-bottom: 0;
+    object-fit: cover;
+    object-position: top;
   }
 }
