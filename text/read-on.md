@@ -28,12 +28,18 @@ Lincoln, Charles Eric. 1961. _The Black Muslims in America_. Boston: Beacon Pres
 
 McLarney, Ellen. 2026. _Black Arts, Black Muslims: Islam in the Black Freedom Struggle._ New York City: Columbia University Press.
 
+Muhammad, Elijah. 1967. _How to Eat to Live_, vol. 1. Chicago: Muhammad Mosque of Islam.
+
 Muhammad, Elijah. 1974. _Our Saviour Has Arrived_. Chicago: Muhammad’s Temple of Islam No. 2.
 
 Ogbar, Jeffrey. 2019. _Black Power: Radical Politics and African American Identity_, 2nd ed. Baltimore, Johns Hopkins University Press.
 
+Potorti, Mary. 2017. “Eat to Live: Culinary Nationalism and Black Capitalism in Elijah Muhammad’s Nation of Islam.” In _New Perspectives on the Nation of Islam_, edited by Dawn-Marie Gibson and Herbert Berg, 69–94. New York City: Routledge.
+
 Sullivan, Winnifred Sullivan and Mian Ahmed Shaheer Afaqi. 2021. “Shakeela Hassan: Narrating Religious Freedom in the Twenty-First Century,” _American Religion_ 3/1: 82-105.
 
 Tarlo, Emma. 2010. _Visibly Muslim: Fashion, Politics, Faith_. New York City: Bloomsbury.
+
+Wallach, Jennifer Jensen. July 2, 2014. “How to Eat to Live: Black Nationalism and the Post-1964 Culinary Turn,” [_Study the South_](https://studythesouth.org/how-to-eat-to-live).
 
 Woodford, John. 2011. “Messaging the Blackman.” In _Insider Histories of the Vietnam Era Underground Press, Part 1_, ed. Ken Wachsberger, 1-33. East Lansing: Michigan State University Press (reprint).
