@@ -2,7 +2,8 @@
  * footer.entry-footer: The page footer.
  * .user-separator: A text-width separator below the featured video and above the 'click to enlarge', `<div class="..."><hr></div>`.
  * .user-key-visual: Iconic images from Muhammad Speaks or elsewhere.
- * .user-key-visual-container: The div which holds the image and its caption. */
+ * .user-key-visual-container: The div which holds the image and its caption.
+ * .user-worksheet: The worksheet link box. */
 
 :root {
   --accent: #8c4750;
@@ -42,4 +43,23 @@ footer.entry-footer {
 .user-key-visual-container > figure + p,
 .user-key-visual-container > figure + p + p {
   font-size: 0.9em;
+}
+
+.user-worksheet {
+  border: var(--border1);
+  background-color: var(--accent);
+  color: var(--white);
+  margin: auto;
+  padding: 8px;
+  width: max-content;
+  font-style: italic;
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+  }
+}
+
+.user-worksheet:hover a {
+  text-decoration: underline;
 }
