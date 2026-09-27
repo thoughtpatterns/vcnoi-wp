@@ -1,0 +1,21 @@
+#!/usr/bin/env -S awk -f
+
+/^[[:space:]]*\/\*/ { comment = 1 }
+
+comment {
+	if (/\*\//) comment = 0
+	print
+	next
+}
+
+{
+	code = $0
+	gsub(/\/\*([^*]|\*+[^*\/])*\*+\//, " ", code)
+
+	if (code ~ /^[[:space:]]*[-_[:alpha:]][-_[:alnum:]]*[[:space:]]*:[^;]+;[[:space:]]*$/ \
+		&& tolower(code) !~ /![[:space:]]*important[[:space:]]*;/ \
+		&& $0 !~ /\/\*[[:space:]]*!unimportant[[:space:]]*\*\//)
+		sub(/;[[:space:]]*$/, " !important&")
+
+	print
+}
