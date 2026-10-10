@@ -1,5 +1,7 @@
 Adang, Camille, et al (ed.). 2016. _Accusations of Unbelief in Islam: A Diachronic Perspective on Takfir_. Leiden and Boston: Brill.
 
+Allen, James et al. 2000. _Without Sanctuary: Lynching Photography in America_. Santa Fe, NM: Twin Palms Publishers.
+
 Camp, Stephanie. 2015. “Black is Beautiful: An American History,” _The Journal of Southern History_ 81/3: 675-690.
 
 Curtis IV, Edward. 2002. _Islam in Black America: Identity, Liberation, and Difference in African-American Islamic Thought_. Albany: State University of New York Press.
@@ -8,9 +10,13 @@ Curtis IV, Edward. 2002. “Islamizing the Black Body: Ritual and Power in Elija
 
 Curtis IV, Edward. 2006. _Black Muslim Religion in the Nation of Islam, 1960-1975_. Chapel-Hill: University of North Carolina Press.
 
+Eig, Jonathan. 2023. _King: A Life_. New York: Farrar, Straus and Giroux.
+
 Green, Mitchell. 2011. “Speech Acts,” in [_The Stanford Encyclopedia of Philosophy_](https://plato.stanford.edu/entries/speech-acts).
 
 Grewal, Zareena. 2013. “Islamic Utopias, American Dystopia: Muslim Moral Geographies after the Great Migration.” In _Islam Is a Foreign Country: American Muslims and the Global Crisis of Authority_, 79–124. New York City: New York University Press.
+
+Griffin, Farah Jasmine. 2001. "'Ironies of the Saint': Malcolm X, Black Women, and the Price of Protection." In _Sisters in the Struggle: African American Women in the Civil Rights-Black Power Movemen_t, ed. Bettye Collier-Thomas and V.P. Franklin, 214-229. New York City: New York University Press.
 
 Gruber, Christiane. 2023. “Do-For-Self: The Visual Culture of the Nation of Islam,” [_Jadaliyya_](https://www.jadaliyya.com/Details/45158/Do-For-Self-The-Visual-Culture-of-the-Nation-of-Islam).
 
@@ -24,6 +30,8 @@ Hussain, Khuram. 2021. “Muhammad Speaks for Freedom, Justice, and Equality,”
 
 Jackson, Sherman. 2005. _Islam and the Blackamerican: Looking Toward the Third Resurrection_. Oxford: Oxford University Press.
 
+King Jr., Martin Luther. 1957. "Nonviolence and Racial Justice," 165-167. The Christian Century.
+
 Lincoln, Charles Eric. 1961. _The Black Muslims in America_. Boston: Beacon Press.
 
 McLarney, Ellen. 2026. _Black Arts, Black Muslims: Islam in the Black Freedom Struggle._ New York City: Columbia University Press.
@@ -32,6 +40,8 @@ Muhammad, Elijah. 1967. _How to Eat to Live_, vol. 1. Chicago: Muhammad Mosque o
 
 Muhammad, Elijah. 1974. _Our Saviour Has Arrived_. Chicago: Muhammad’s Temple of Islam No. 2.
 
+Muhammad, Elijah. 1992. "Hypocrites, Disbelievers, and Obedience." In _Message to the Blackman in America_. Newport News, VA: United Brothers Communications Systems.
+
 Ogbar, Jeffrey. 2019. _Black Power: Radical Politics and African American Identity_, 2nd ed. Baltimore, Johns Hopkins University Press.
 
 Potorti, Mary. 2017. “Eat to Live: Culinary Nationalism and Black Capitalism in Elijah Muhammad’s Nation of Islam.” In _New Perspectives on the Nation of Islam_, edited by Dawn-Marie Gibson and Herbert Berg, 69–94. New York City: Routledge.
@@ -39,6 +49,10 @@ Potorti, Mary. 2017. “Eat to Live: Culinary Nationalism and Black Capitalism i
 Sullivan, Winnifred Sullivan and Mian Ahmed Shaheer Afaqi. 2021. “Shakeela Hassan: Narrating Religious Freedom in the Twenty-First Century,” _American Religion_ 3/1: 82-105.
 
 Tarlo, Emma. 2010. _Visibly Muslim: Fashion, Politics, Faith_. New York City: Bloomsbury.
+
+Taylor, Clarence. 2018. _Fight the Power: African Americans and the Long History of Police Brutality in New York City._ New York City: New York University Press.
+
+Tuck, Steven. 2001. _Beyond Atlanta: The Struggle for Racial Equality in Georgia, 1940–1980_. Athens: University of Georgia Press.
 
 Wallach, Jennifer Jensen. July 2, 2014. “How to Eat to Live: Black Nationalism and the Post-1964 Culinary Turn,” [_Study the South_](https://studythesouth.org/how-to-eat-to-live).
 
